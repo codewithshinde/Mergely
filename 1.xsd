@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
   <xs:element name="ab" type="xs:NCName"/>
+   <xsd:element name="name"   type="xsd:string"/>
+   <xsd:element name="street" type="xsd:string"/>
+   <xsd:element name="city"   type="xsd:string"/>
+   <xsd:element name="state"  type="xsd:string"/>
+   <xsd:element name="zip"    type="xsd:integer"/>
 </xs:schema>
