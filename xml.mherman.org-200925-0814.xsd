@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-   <xs:element name="a" type="xs:NCName"/>
-  <xs:element name="b" type="xs:NCBame"/>
-  <xs:element name="c" type="xs:NCCame"/>
-  <xs:element name="d" type="xs:NCDame"/>
-  <xs:element name="e" type="xs:NCEame"/>
-</xs:schema>
