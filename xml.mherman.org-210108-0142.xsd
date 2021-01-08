@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="schema">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element ref="xsd:element"/>
-        <xsd:element maxOccurs="unbounded" ref="xsd:complexType"/>
-      </xsd:sequence>
-      <xsd:attribute name="elementFormDefault" use="required" type="xsd:NCName"/>
-      <xsd:attribute name="targetNamespace" use="required" type="xsd:anyURI"/>
-    </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="complexType">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element ref="xsd:sequence"/>
-        <xsd:element ref="xsd:attribute"/>
-      </xsd:sequence>
-      <xsd:attribute name="name" use="required" type="xsd:NCName"/>
-    </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="sequence">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element maxOccurs="unbounded" ref="xsd:element"/>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="attribute">
-    <xsd:complexType>
-      <xsd:attribute name="fixed" type="xsd:NCName"/>
-      <xsd:attribute name="name" use="required" type="xsd:NCName"/>
-      <xsd:attribute name="type" use="required" type="xsd:NMTOKEN"/>
-    </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="element">
-    <xsd:complexType>
-      <xsd:attribute name="maxOccurs" type="xsd:integer"/>
-      <xsd:attribute name="name" use="required" type="xsd:NCName"/>
-      <xsd:attribute name="type" use="required" type="xsd:NMTOKEN"/>
-    </xsd:complexType>
-  </xsd:element>
-</xsd:schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="a" type="xs:NCName"/>
+  <xs:element name="b" type="xs:NCBame"/>
+  <xs:element name="c" type="xs:NCCame"/>
+  <xs:element name="d" type="xs:NCDame"/>
+  <xs:element name="e" type="xs:NCEame"/>
+</xs:schema>
